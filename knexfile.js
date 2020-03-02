@@ -20,7 +20,7 @@ module.exports = {
     },
 
     production: {
-      client: "sqlite3",
+      client: "pg",
       connection: process.env.DATABASE_URL,
       pool: {
         min: 2,
@@ -28,7 +28,7 @@ module.exports = {
       },
       migrations: {
         directory: "./data/migrations",
-        tableName: "marketplace",
+        tableName: "dbmigrations",
       }
     }
   },
