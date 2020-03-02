@@ -9,4 +9,3 @@ server.listen(PORT, () => {
 server.get('/',(req,res)=>{
     res.send('Welcome to the African Market Place API')
 })
-  
