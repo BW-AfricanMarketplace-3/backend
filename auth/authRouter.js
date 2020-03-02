@@ -16,7 +16,7 @@ router.post('/register', (req, res) => {
             res.status(201).json(newUser);
         })
         .catch(error => {
-            res.status(500).json({message: 'Username already taken!'});
+            res.status(500).json({message: 'Unalbe to create user!'});
         });
   });
 
