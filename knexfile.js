@@ -28,7 +28,7 @@ module.exports = {
       },
       migrations: {
         directory: "./data/migrations",
-        tableName: "marketplace",
+        tableName: "dbmigrations",
       }
     }
   },
