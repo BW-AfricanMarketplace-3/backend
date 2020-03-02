@@ -20,14 +20,15 @@ module.exports = {
     },
 
     production: {
-      client: "pg",
+      client: 'pg',
       connection: process.env.DATABASE_URL,
-      
       migrations: {
-        directory: "./data/migrations",
-        tableName: "dbmigrations",
-      }
-    }
+        directory: './data/migrations'
+      },
+      seeds: {
+        directory: './data/seeds'
+      },
+    },
   },
   testing:{
     client: 'sqlite3',
