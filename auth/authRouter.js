@@ -12,7 +12,7 @@ router.post('/register', (req, res) => {
   
     Users.add(user)
         .then(saved => {
-            const newUser = {...saved, password: 'password'}
+            const newUser = {...saved, password: (hash)}
             res.status(201).json(newUser);
         })
         .catch(error => {
