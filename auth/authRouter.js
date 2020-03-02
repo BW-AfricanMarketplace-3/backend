@@ -16,7 +16,7 @@ router.post('/register', (req, res) => {
             res.status(201).json(newUser);
         })
         .catch(error => {
-            res.status(500).json(error);
+            res.status(500).json({message: 'Username already taken!'});
         });
   });
 
@@ -31,7 +31,7 @@ router.post('/register', (req, res) => {
                   const user_id = user.id
                   res.status(200).json({ message: `Welcome ${user.username}!`, token, user_id});
               } else {
-                  res.status(401).json({ message: "Invalid Credentials" });
+                  res.status(401).json({ message: "Incorrect username or password!" });
               }
           })
           .catch(error => {
