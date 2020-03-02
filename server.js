@@ -7,7 +7,7 @@ const helmet = require('helmet')
 const authRouter = require('./auth/authRouter')
 const avgPriceRouter = require('./pricelist/avgPriceRouter')
 const listingRouter = require('./listings/listingsRouter')
-const userRouter = require('./users/usersRouter')
+const userRouter = require('./Users/usersRouter')
 
 server.use(express.json())
 server.use(cors())
