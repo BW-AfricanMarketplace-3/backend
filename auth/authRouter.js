@@ -47,7 +47,7 @@ router.post('/register', (req, res) => {
     const options ={
         expiresIn: '1d'
     }
-    return jwt.sign(payload, process.env.JWT_SECRET || 'Password not shown', options)
+    return jwt.sign(payload, process.env.JWT_SECRET || 'thisonetimeatbandcamp', options)
   }
 
 module.exports = router 
