@@ -1,7 +1,7 @@
 <h1>African Marketplace Endpoints and Info</h1>
 
 <h2>Deployed root API Location</h2>
-<a href="http://africanmarketplace.ddns.net:5000/">http://africanmarketplace.ddns.net:5000/</a>
+<a href="http://africanmarketplace.ddns.net:5000/" target="_blank">http://africanmarketplace.ddns.net:5000/</a>
 <h2>Front End Testing Login<h2>
 <h3>Username: testing</h3>
 <h3>Password: testpass</h3>
