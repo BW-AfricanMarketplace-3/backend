@@ -67,5 +67,5 @@
     <p>"description": "Comes in 500g sacks",</p>
     <p>"price": 10</p>
 <p>}</p>
-<h3>Delete listing created by the user: (requires token)</h3>
-<p>/api/users/:id/listings/:id</p>
+<h3>Delete listing created by the user:</h3>
+<p>/api/users/:id/listings/:id (requires token)</p>
