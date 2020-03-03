@@ -1,13 +1,10 @@
 <h1>African Marketplace Endpoints and Info</h1>
 
-<h2>Front End Testing Login<h2>
-
-<h3>Username: testing</h3>
-<h3>Password: testpass</h3>
-
 <h2>Deployed root API Location</h2>
 <a href="http://africanmarketplace.ddns.net:5000/">http://africanmarketplace.ddns.net:5000/</a>
-
+<h2>Front End Testing Login<h2>
+<h3>Username: testing</h3>
+<h3>Password: testpass</h3>
 <h2>Registration and Login</h2>
 <h3>Register:</h3>
 <p>/api/auth/register</p>
@@ -70,6 +67,5 @@
     <p>"description": "Comes in 500g sacks",</p>
     <p>"price": 10</p>
 <p>}</p>
-
 <h3>Delete listing created by the user: (requires token)</h3>
 <p>/api/users/:id/listings/:id</p>
